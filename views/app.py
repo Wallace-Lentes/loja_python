@@ -1,9 +1,10 @@
 import tkinter as tk
 from tkinter import ttk, messagebox
-import controllers.cliente_controller as cliente_controller
-import controllers.categoria_controller as categoria_controller
-import controllers.produto_controller as produto_controller
-import controllers.pedido_controller as pedido_controller
+from controllers import cliente_controller
+from controllers import categoria_controller
+from controllers import produto_controller
+from controllers import pedido_controller
+
 
 
 class App(tk.Tk):
