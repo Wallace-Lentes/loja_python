@@ -18,7 +18,7 @@ class App(tk.Tk):
 
         self.title("Sistema de Loja")
         self.geometry("800x600")
-        self.configure(bg="#f0f0f0")
+        self.configure(bg="#c51f1f")
 
         self.eval('tk::PlaceWindow . center')
 
